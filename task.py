@@ -17,7 +17,7 @@ import re
 from tkcalendar import DateEntry  # 날짜 선택 위젯 추가
 import traceback  # 예외 추적을 위한 모듈 추가
 
-# PyInstaller 환경에서의 리소스 경로 처리 함수
+# PyInstaller 환경에서의 리소스 경로 처리 함수 # test push
 def resource_path(relative_path):
     """PyInstaller로 패키징된 경우 임시 폴더에서 데이터 파일을 찾고, 그렇지 않으면 현재 디렉토리에서 찾습니다."""
     try:
